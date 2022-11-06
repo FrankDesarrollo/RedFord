@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inico de sesion o registro Redfords</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_login_registro.css">
+</head>
+<body>
+    
+    <main>
+        <div class="contenedor__todo">
+
+            <div class= "caja__trasera">
+                <!--Formulario de inicio de sesion-->
+               <div class="caja__trasera-inicio-de-sesion">
+                      <h3>¿ya tienes cuenta?</h3>
+                      <p>Inicia sesion para entrar a la pagina</p>
+                     <button id="btn__iniciar-sesion">Iniciar sesion</button>
+            </div>
+             <!--Formulario de registro-->
+             <div class="caja__trasera-registro">
+                    <h3>¿aun no tienes cuenta?</h3>
+                     <p>Registrate para iniciar sesion</p>
+                      <button id="btn__registro">Regristrarse</button>
+                </div>
+          </div>
+
+          <div class="contenedor__inicio-sesion-registro">
+
+            <form action="" class="formulario_inicio-de-sesion">
+                <h2>Iniciar sesion</h2>
+                <input type="text" placeholder="correo Electronico">
+                <input type="password" placeholder="contraseña">
+                <button>Entrar</button>
+            </form>
+
+            <form action="" class="formulario__registro">
+                <h2>registrarse</h2>
+                <input type="text" placeholder="Nombre completo">
+                <input type="text" placeholder="correo electronico">
+                <input type="text" placeholder="usuario">
+                <input type="password" placeholder="contraseña">
+                <button>registrarse</button>
+            </form>
+
+
+          </div>
+     </div>
+
+
+
+    </main>
+    <script src="main.js"></scriptsrc></script>
+</body>
+</html>
