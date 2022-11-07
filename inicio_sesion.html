@@ -1,3 +1,13 @@
+<?php
+
+   session_start();
+   if(isset($_SESSION['usuario'])){
+    header("location: bienvenido.php");
+   }
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +21,17 @@
 <body>
     
     <main>
+        <div class="contenedor.atras">
+            <div class="nav.main">
+        <ul class="nav-salida">
+            <li>
+                <a href="index.php"style="color:#FF0000;">volver</a>
+              </li>
+        </ul>
+    </div>
+    </div>
         <div class="contenedor__todo">
-
+            
             <div class= "caja__trasera">
                 <!--Formulario de inicio de sesion-->
                <div class="caja__trasera-inicio-de-sesion">
@@ -30,21 +49,22 @@
 
           <div class="contenedor__inicio-sesion-registro">
 
-            <form action="" class="formulario_inicio-de-sesion">
+            <form action="login_usuario_bd.php" method="POST" class="formulario_inicio-de-sesion">
                 <h2>Iniciar sesion</h2>
-                <input type="text" placeholder="correo Electronico">
-                <input type="password" placeholder="contraseña">
+                <input type="text" placeholder="correo Electronico" name="correo">
+                <input type="password" placeholder="contraseña" name= "contrasena">
                 <button>Entrar</button>
             </form>
 
-            <form action="" class="formulario__registro">
+            <form action="registro_usuario_bd.php" method="POST" class="formulario__registro">
                 <h2>registrarse</h2>
-                <input type="text" placeholder="Nombre completo">
-                <input type="text" placeholder="correo electronico">
-                <input type="text" placeholder="usuario">
-                <input type="password" placeholder="contraseña">
+                <input type="text" placeholder="Nombre completo" name="nombre_completo">
+                <input type="text" placeholder="correo electronico" name="correo">
+                <input type="text" placeholder="usuario" name="usuario">
+                <input type="password" placeholder="contraseña" name="contrasena">
                 <button>registrarse</button>
             </form>
+
 
 
           </div>
