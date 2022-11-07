@@ -12,7 +12,7 @@
 
     
     <!-- CUSTOM CSS-->
-    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="style.css">
 
 
 
@@ -43,7 +43,7 @@
               <a href="#">Desarrollo</a>
             </li>
             <li>
-              <a href="inicio_sesion.html">Sesion & Registro</a>
+              <a href="inicio_sesion.php">Sesion & Registro</a>
             </li>
             <li>
               <a href="#">Cryptocurrencies</a>
