@@ -10,15 +10,13 @@
     <!-- FONT OSWALD -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 
-    
+
+
+
     <!-- CUSTOM CSS-->
-    <link rel="stylesheet" href="style.css">
-
-
-
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-
     <div class="menu-btn">
         <i class="fas fa-bars fa-2x"></i>
       </div>
@@ -27,29 +25,26 @@
         <!-- Navigation -->
         <nav class="nav-main">
           <!-- Brand -->
-          <img src="img/REDFORD1.png" alt="RedFord Logo" class="nav-brand">
+          <img src="img/redfordeditado.png" alt="RedFord Logo" class="nav-brand">
           <!-- Left Nav -->
           <ul class="nav-menu">
             <li>
-              <a href="#">Noticias</a>
+              <a href="inicio_sesion.php">Noticias</a>
             </li>
             <li>
-              <a href="#">Sobre Nosotros</a>
+              <a href="inicio_sesion.php">Sobre Nosotros</a>
             </li>
             <li>
-              <a href="#">Podcast & Opiniones</a>
+              <a href="inicio_sesion.php">Podcast & Opiniones</a>
             </li>
             <li>
-              <a href="#">Desarrollo</a>
+              <a href="inicio_sesion.php">Desarrollo</a>
             </li>
             <li>
               <a href="inicio_sesion.php">Sesion & Registro</a>
             </li>
             <li>
-              <a href="#">Cryptocurrencies</a>
-            </li>
-            <li>
-              <a href="#">More</a>
+              <a href="Sobrenosotros.html">More</a>
             </li>
           </ul>
     
@@ -63,59 +58,79 @@
           </ul>
         </nav>
         <hr>
-
         <!-- SHOWCASE-->
         <!-- Banner -->
         <header class="showcase">
             <h2>Red Ford INT</h2>
             <p>Podcast & Opiniones</p>
-            <a href="#"class="btn";>Leer Mas <i class="fas fa-angle-double-right"></i></a>
+            <a href="inicio_sesion.php"class="btn";>Ver Episodios <i class="fas fa-angle-double-right"></i></a>
         </header>
-
         <!-- Noticias del Podcast Columnas-->
         <div class="news-carsd">
             <div>
-                <img src="img/1.jpg" alt="News 1">
-                <h3 style="color: black;">Jose David Arias</h3>
-                <p style="color:black;">mi papel ha sido como un desarrollador front-end he trabajado con mis compañeros en la interfaz de usuario desde el punto de vista del código, para que la interacción con el sistema sea posible. Por lo tanto, me he encargado de la parte visual de la página web (de todo aquello que es visible en la página web) haciendo que su diseño sea intuitivo y atractivo esto se logró interactuando con la información, pero de una forma digital usando HTML, CSS, JavaScript..</p>
-                <a href="#" style="color:black;">Leer Mas <i class="fas fa-angle-double-right"></i></a>
-
+                <img src="img/Banner1.gif" alt="News 1">
+                <h3 style="color: black;">¿Quienes Somos?</h3>
+                <p style="color:black;">Somos un grupo de estudiantes que propone una estructura de programación para el desarrollo de una página web que interactúe con el usuario mediante video-podcast, usando esta herramienta se propone concientizar a cada persona tomando desde base las consecuencias que produce el mismo ser humano a través de la contaminación ambiental, se subirá una serie de episodios.</p>
             </div>
             <div>
-                <img src="img/2.jpg" alt="News 1">
-                <h3 style="color: black;">Jeison Mauricio Nazarit</h3>
-                <p style="color:black;">Al igual que mis compañeros he apoyado en cuanto a la parte de programación, el código de la página que hemos estado adelantando, adicional al ello, también he sido quien ha liderado la parte de los diseños de los logos, todo lo que es la multimedia, que se han implementado a la página, que una vez, terminada, podrán visualizar..</p>
-                <a href="#" style="color:black;">Leer Mas <i class="fas fa-angle-double-right"></i></a>
-
+                <img src="img/Banner2.gif" alt="News 1">
+                <h3 style="color: black;">¿Que Ofrecemos?</h3>
+                <p style="color:black;">Motivar acciones para ahorrar, promoviendo entre los colaboradores el uso consciente de los mismos recursos e identificando maneras más eficaces para una mejor conservación del planeta. Implementar estas prácticas no solo favorece a nosotros si no que lo más importante es la posibilidad de contribuir a transformaciones positivas que empiecen en tu entorno social y se extiendan a otros escenarios. </p>
+                
             </div>
             <div>
-                <img src="img/3.jpg" alt="News 1">
-                <h3 style="color: black;">Erick Collin Albornoz</h3>
-                <p style="color:black;">Encargado de planificar e organizar el planteamiento laboral de la página, incluyendo el patrón que tenemos como grupo en el software, mostrando evidencia que la información obtenida por nosotros sea verídica, responsable a la hora de garantizar el funcionamiento correcto o el buen uso de herramientas para el sitio web, mostrar novedades o actualizaciones del servicio (Noticias, ya sean escritas o de carácter auditivo), seguimiento del diseño, estilo y estructura para facilitar el uso del contenido que ofrecemos como tal. (Multimedia, gráficas y animaciones)</p>
-                <a href="#" style="color:black;">Leer Mas <i class="fas fa-angle-double-right"></i></a>
-
+                <img src="img/Banner3.gif" alt="News 1">
+                <h3 style="color: black;">¿Nuestro mensaje?</h3>
+                <p style="color:black;">No solo queremos una cura, queremos la única cura, por eso nuestro propósito es la conciencia de la audiencia. "La Tierra proporciona lo suficiente para satisfacer las necesidades de cada hombre, pero no su codicia” - Mahatma Ghandi.</p>
+                
             </div>
             <div>
-                <img src="img/4.jpg" alt="News 1">
-                <h3 style="color: black;">Frank David Palma</h3>
-                <p style="color:black;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ab culpa dolorum nemo excepturi! Fugiat quas obcaecati odio! Tempore reiciendis velit beatae facilis aliquam consequuntur voluptates, culpa perspiciatis voluptas enim.</p>
-                <a href="#" style="color:black;">Leer Mas <i class="fas fa-angle-double-right"></i></a>
-
+                <img src="img/Banner4.gif" alt="News 1">
+                <h3 style="color: black;">¿A futuro?</h3>
+                <p style="color:black;">Teniendo en cuenta los resultados y el apoyo de entidades externas para la manutención de este proyecto ya que no contamos con los recursos suficientes. Mientras la suerte este de nuestro lado, estaremos con nuestros usuarios</p>
+                
             </div>
-
         </div>
-
         <section class="cards-banner-one">
           <div class="content">
             <h2 style="color: black;">Vision</h2>
             <p style="color: aliceblue;">Concientizar a la población en general el daño medioambiental que está teniendo nuestro ecosistema, a su misma vez, desarrollar mecanismos, para reducir el deterioro medioambiental, los cuales las grandes industrias son responsables, tales como transporte, sector energético, industria textil y la construcción</p>
-            <a href="#" class="btn"> Ver mas<i class="fas fa-angle-double-right"></i></a>
+            <a href="#" class="btn"> Ver mas <i class="fas fa-angle-double-right"></i></a>
           </div>
+        </section>
+
+
+
+        <section class='social'>
+
+        <p style= "color: black;">Follow RedFord</p>
+        <div class= "links">
+          <a href="#">
+            <i class=" fab fa-facebook-f"></i>
+            
+          </a>
+          <a href="https://www.youtube.com/@redford6979">
+            <i class=" fab fa-youtube"></i>
+            
+          </a>
+          <a href="#">
+            <i class=" fab fa-instagram"></i>
+            
+          </a>
+
+
+
+        </div>
+
 
         </section>
 
-    <div>    
 
+    <div>   
+      
+        <!-- Scroll Animacion-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="mainpaginaprincipal.js"></script>
 
 
 </body>
